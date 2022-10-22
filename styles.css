@@ -1,0 +1,119 @@
+body{
+  text-align: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+hr{
+  width: 80%;
+  height: 2px;
+  background-color: hsl(217, 54%, 11%);
+  border: none;
+}
+
+.main-content{
+  height: 570px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 100px auto;
+  border-radius: 20px;
+}
+
+.eqbm{
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 20px;
+}
+.eqbm-div {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.overlay {
+  padding-bottom: 5px;
+  margin: 20px auto 0px;
+  border-radius: 10px;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: hsl(178, 100%, 50%);
+}
+.eqbm-div:hover .overlay{
+  opacity: 0.5;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.avatar{
+  width: 10%;
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.first-para{
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  width: 90%;
+  margin-left: 15px;
+}
+.first-para:hover{
+  color: hsl(178, 100%, 50%);
+}
+.top-container{
+  margin-bottom: 10px;
+}
+.sub-content{
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  text-align: left;
+  margin: 0px auto;
+  width: 90%;
+}
+.eth{
+  color: hsl(178, 100%, 50%);
+  margin-right: 95px;
+  font-weight: 300;
+}
+.time{
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+.jules{
+  color: white;
+}
+.jules:hover{
+  color: hsl(178, 100%, 50%);
+}
+.copyright{
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  margin-right: 40px;
+}
+.attribution {
+ font-size: 11px; text-align: center;
+ }
+.attribution a {
+ color: hsl(228, 45%, 44%);
+}
